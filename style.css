@@ -1,0 +1,85 @@
+body {
+    background-image: url('./Assets/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.block {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+.usercard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    border: 4px solid white;
+    border-radius: 8px;
+    font-family: sans-serif;
+    background-color: white;
+    overflow: hidden;
+}
+
+.usercard-background {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -50px;
+    border: 4px solid white;
+}
+
+.user-name {
+    text-transform: uppercase;
+    color: rgb(63, 58, 51);
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+.user-name:hover {
+    color: rgb(61, 63, 221);
+    cursor: pointer;
+}
+
+.user-details{
+    font-family: serif;
+    font-size: 0.9em;
+    color: rgb(112, 112, 112);
+}
+
+.user-message {
+    margin: 5px 0 40px;
+}
+
+.icons-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    fill: rgb(112, 112, 112);
+    padding: 2px;
+}
+
+.icon:hover {
+    fill: rgb(61, 63, 221);
+    cursor: pointer;
+}
+
